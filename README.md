@@ -49,6 +49,7 @@ pip install -r requirements.txt
 ```
 
 4. Set-up virtual environment variables.
+
 	1. Create a file named `.env` in the root directory & add the following contents.
 	
 	```text
@@ -56,7 +57,8 @@ pip install -r requirements.txt
 	LOCAL_HOST = 'my-local-ip'
 	```
 	2. For `SECRET_KEY` use [Django Secret Key Generator](https://www.miniwebtool.com/django-secret-key-generator/) or [Djecrety](https://djecrety.ir/).
-	3. Adding `LOCAL_HOST` is optional.
+	
+	4. Adding `LOCAL_HOST` is optional.
 
 5. Migrate tables.
 
